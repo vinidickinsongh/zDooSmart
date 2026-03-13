@@ -1,0 +1,4 @@
+# Shared local/editor artifacts for this monorepo root
+.idea/
+.DS_Store
+
