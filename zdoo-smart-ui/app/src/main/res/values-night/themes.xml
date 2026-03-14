@@ -1,0 +1,15 @@
+<resources>
+    <style name="Base.Theme.ZDooSmart" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_color_gradient</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.ZDooSmart" parent="Base.Theme.ZDooSmart" />
+
+    <style name="Theme.ZDooSmart.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher_monochrome</item>
+        <item name="postSplashScreenTheme">@style/Theme.ZDooSmart</item>
+    </style>
+</resources>

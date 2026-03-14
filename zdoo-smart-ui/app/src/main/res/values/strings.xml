@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name" translatable="false">zDoo Smart</string>
+    <string name="app_description" translatable="false">zDoo Smart - Ultimate fishing companion</string>
+
+    <!-- Welcome Page -->
+    <string name="welcome_title">Welcome to zDoo Fishing!</string>
+</resources>

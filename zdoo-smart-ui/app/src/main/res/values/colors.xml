@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="splash_background">#EAF4FF</color>
+
+    <color name="background_gradient_start">#F8FBFF</color>
+    <color name="background_gradient_center">#EAF4FF</color>
+    <color name="background_gradient_end">#D4E8FF</color>
+
+    <!-- Welcome Page Colors -->
+    <color name="welcome_title">#0D2137</color>
+
+</resources>
