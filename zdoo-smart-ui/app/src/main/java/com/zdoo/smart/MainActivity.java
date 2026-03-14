@@ -1,5 +1,3 @@
-// Line 21 to 25 are only used for testing purposes.
-// SplashScreen.installSplashScreen(this);
 package com.zdoo.smart;
 
 import android.content.res.Configuration;
@@ -20,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        // Line 23 to 27 are only used for testing purposes.
+        // SplashScreen.installSplashScreen(this);
         SplashScreen splashScreen = SplashScreen.installSplashScreen(this);
         final long splashStartTime = SystemClock.uptimeMillis();
         splashScreen.setKeepOnScreenCondition(() ->
