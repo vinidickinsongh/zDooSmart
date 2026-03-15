@@ -9,7 +9,21 @@
     <color name="background_gradient_center">#EAF4FF</color>
     <color name="background_gradient_end">#D4E8FF</color>
 
-    <!-- Welcome Page Colors -->
-    <color name="welcome_title">#0D2137</color>
+    <!-- Common Page Colors -->
+    <color name="header_title">#0D2137</color>
+    <color name="header_subtitle">#0D2137</color>
 
+    <color name="banner_title">#0D2137</color>
+    <color name="banner_subtitle">#0D2137</color>
+
+    <color name="footer_title">#5A6A7A</color>
+    <color name="footer_subtitle">#5A6A7A</color>
+
+    <!-- Signup & Login Colors-->
+    <color name="login_text">#0D2137</color>
+    <color name="login_link">#1565C0</color>
+
+    <color name="input_label">#0D2137</color>
+    <color name="input_text">#0A1628</color>
+    <color name="input_hint">#1A3A5C</color>
 </resources>

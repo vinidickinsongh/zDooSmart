@@ -4,13 +4,26 @@
     <color name="white">#FFFFFFFF</color>
 
     <color name="splash_background">#0D2137</color>
-
     <color name="background_gradient_start">#0A1628</color>
     <color name="background_gradient_center">#0D2137</color>
     <color name="background_gradient_end">#1A3A5C</color>
 
-    <!-- Welcome Page Colors -->
-    <color name="welcome_title">#ABABB0</color>
+    <!-- Common Page Colors -->
+    <color name="header_title">#ABABB0</color>
+    <color name="header_subtitle">#ABABB0</color>
+
+    <color name="banner_title">#ABABB0</color>
+    <color name="banner_subtitle">#ABABB0</color>
+
+    <color name="footer_title">#8A95A5</color>
+    <color name="footer_subtitle">#8A95A5</color>
+
+    <!-- Signup & Login Colors-->
+    <color name="login_text">#8A95A5</color>
+    <color name="login_link">#64B5F6</color>
+
+    <color name="input_label">#AACCDDEE</color>
+    <color name="input_text">#FFFFFFFF</color>
+    <color name="input_hint">#4499BBDD</color>
 
 </resources>
-

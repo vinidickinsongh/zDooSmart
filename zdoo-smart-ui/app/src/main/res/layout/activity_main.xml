@@ -39,12 +39,90 @@
             android:layout_marginEnd="20dp"
             android:fontFamily="sans-serif-medium"
             android:text="@string/welcome_title"
-            android:textColor="@color/welcome_title"
+            android:textColor="@color/banner_title"
             android:textSize="24sp"
             android:textStyle="normal"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/logoImage" />
+
+        <!-- ==================== BANNER SLIDER ==================== -->
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/bannerViewPager"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            app:layout_constraintDimensionRatio="16:18"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/welcomeTitleTop" />
+
+        <!-- ==================== PAGE INDICATOR DOTS ==================== -->
+        <LinearLayout
+            android:id="@+id/indicatorLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bannerViewPager" />
+
+        <!-- ==================== GET STARTED BUTTON ==================== -->
+        <Button
+            android:id="@+id/btnGetStarted"
+            android:layout_width="0dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/bg_button_gradient"
+            app:backgroundTint="@null"
+            android:fontFamily="sans-serif-medium"
+            android:letterSpacing="0.03"
+            android:stateListAnimator="@null"
+            android:text="@string/get_started"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:elevation="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/indicatorLayout" />
+
+        <!-- ==================== ALREADY HAVE ACCOUNT ==================== -->
+        <LinearLayout
+            android:id="@+id/loginPrompt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btnGetStarted">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/already_have_account"
+                android:textColor="@color/login_text"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/loginLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:text="@string/log_in"
+                android:textColor="@color/login_link"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

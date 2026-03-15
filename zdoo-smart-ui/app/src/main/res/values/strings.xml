@@ -4,4 +4,62 @@
 
     <!-- Welcome Page -->
     <string name="welcome_title">Welcome to zDoo Fishing!</string>
+
+    <!-- Banner -->
+    <string name="banner_image_description">Banner image</string>
+    <string name="banner1_title">Discover Fishing Spots</string>
+    <string name="banner1_subtitle">Find the best locations near you</string>
+    <string name="banner2_title">Weather Forecast</string>
+    <string name="banner2_subtitle">Plan your trip with live conditions</string>
+    <string name="banner3_title">Gear Recommendations</string>
+    <string name="banner3_subtitle">Get the right equipment for every catch</string>
+    <string name="banner4_title">Catch Tracker</string>
+    <string name="banner4_subtitle">Log and review your fishing records</string>
+    <string name="banner5_title">Community Hub</string>
+    <string name="banner5_subtitle">Connect with fellow anglers nearby</string>
+
+    <!-- Get Started Button -->
+    <string name="get_started">Get Started</string>
+
+    <!-- Common Strings -->
+    <string name="back">Back</string>
+
+    <!-- Signup Page -->
+    <string name="create_account">Create Account</string>
+    <string name="signup_subtitle">Join the smart fishing community</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="hint_first_name">First name</string>
+    <string name="hint_last_name">Last name</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="hint_mobile">Enter mobile number</string>
+    <string name="hint_password">Create a password</string>
+    <string name="hint_confirm_password">Confirm your password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_account">Already have an account?</string>
+    <string name="log_in">Log In</string>
+    <string name="toggle_password">Toggle password visibility</string>
+    <string name="error_first_name_required">First name is required</string>
+    <string name="error_last_name_required">Last name is required</string>
+    <string name="error_email_required">Email is required</string>
+    <string name="error_email_invalid">Enter a valid email</string>
+    <string name="error_mobile_required">Mobile number is required</string>
+    <string name="error_mobile_invalid">Enter a valid mobile number</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_mismatch">Passwords do not match</string>
+    <string name="signup_success">Account created successfully!</string>
+
+    <!-- Login Page -->
+    <string name="login_subtitle">Welcome back, angler!</string>
+    <string name="hint_login_password">Enter your password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="login_success">Login successful!</string>
+    <string name="forgot_password_coming_soon">Forgot password coming soon</string>
+
 </resources>
